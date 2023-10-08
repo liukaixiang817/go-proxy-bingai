@@ -361,7 +361,7 @@ const saveAdvancedSetting = () => {
           <NTag type="info" size="small" round>{{ 'v3.0' }}</NTag>
         </NFormItem>
         <NFormItem path="token" label="ChatGPT地址">
-          <NButton text tag="a" href="https://lkx666.cn"</NButton>
+          <NButton text tag="a" href="https://lkx666.cn"></NButton>
         </NFormItem>
     </NForm>
     <template #action>
