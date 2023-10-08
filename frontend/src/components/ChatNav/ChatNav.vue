@@ -355,19 +355,13 @@ const saveAdvancedSetting = () => {
       </template>
       <NForm ref="formRef" label-placement="left" label-width="auto" size="small" style="margin-top: 16px;">
         <NFormItem path="" label="版本号">
-          <NTag type="info" size="small" round>{{ 'v' + localVersion }}</NTag>
+          <NTag type="info" size="small" round>{{ 'v3.0' }}</NTag>
         </NFormItem>
         <NFormItem path="" label="最新版本">
-          <NTag type="info" size="small" round>{{ lastVersion }}</NTag>
+          <NTag type="info" size="small" round>{{ 'v3.0' }}</NTag>
         </NFormItem>
-        <NFormItem path="token" label="开源地址">
-          <NButton text tag="a" href="https://github.com/Harry-zklcdc/go-proxy-bingai" target="_blank" type="success">Harry-zklcdc/go-proxy-bingai</NButton>
-        </NFormItem>
-        <NFormItem path="token" label="原作者">
-          <NButton text tag="a" href="https://github.com/adams549659584" target="_blank" type="success">adams549659584</NButton>
-        </NFormItem>
-        <NFormItem path="token" label="原开源地址">
-          <NButton text tag="a" href="https://github.com/adams549659584/go-proxy-bingai" target="_blank" type="success">adams549659584/go-proxy-bingai</NButton>
+        <NFormItem path="token" label="ChatGPT地址">
+          <NButton text tag="a" href="https://lkx666.cn"</NButton>
         </NFormItem>
     </NForm>
     <template #action>
