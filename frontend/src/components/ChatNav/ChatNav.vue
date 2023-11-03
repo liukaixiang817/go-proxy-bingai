@@ -394,19 +394,13 @@ const autoPassCFChallenge = async () => {
       </template>
       <NForm ref="formRef" label-placement="left" label-width="auto" size="small" style="margin-top: 16px;">
         <NFormItem path="" label="版本号">
-          <NTag type="info" size="small" round>{{ 'v' + localVersion }}</NTag>
+          <NTag type="info" size="small" round>{{ 'v4' }}</NTag>
         </NFormItem>
-        <NFormItem path="" label="最新版本">
-          <NTag type="info" size="small" round>{{ lastVersion }}</NTag>
+        <NFormItem path="token" label="lkxChatGPT">
+          <NButton text tag="a" href="https://lkx.hk" target="_blank" type="success">lkxChatGPT</NButton>
         </NFormItem>
-        <NFormItem path="token" label="开源地址">
-          <NButton text tag="a" href="https://github.com/Harry-zklcdc/go-proxy-bingai" target="_blank" type="success">Harry-zklcdc/go-proxy-bingai</NButton>
-        </NFormItem>
-        <NFormItem path="token" label="原作者">
-          <NButton text tag="a" href="https://github.com/adams549659584" target="_blank" type="success">adams549659584</NButton>
-        </NFormItem>
-        <NFormItem path="token" label="原开源地址">
-          <NButton text tag="a" href="https://github.com/adams549659584/go-proxy-bingai" target="_blank" type="success">adams549659584/go-proxy-bingai</NButton>
+        <NFormItem path="token" label="lkxFakeGPT">
+          <NButton text tag="a" href="https://fake.lkx.hk" target="_blank" type="success">lkxFakeGPT</NButton>
         </NFormItem>
     </NForm>
     <template #action>
